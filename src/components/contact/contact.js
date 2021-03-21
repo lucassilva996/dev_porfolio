@@ -1,7 +1,7 @@
 //importando o React
 import React from "react";
 //importando os components necessários da lib react-materialize
-import {Row, Col, Card, CardImage} from 'react-materialize';
+import {Row, Col, Card} from 'react-materialize';
 //importando o component UserProfile
 import UserProfile from '../user_profile/user_profile'
 //importando o icone do github
@@ -24,15 +24,15 @@ const Contact = () => (
                 <br/>
             
                 <row>
-                    <a href="https://github.com/lucassilva996" target="_blank"><img src={github} className="cicle responsive-img" width="120" height="120"/></a>
+                    <a href="https://github.com/lucassilva996" target="_blank" rel="noreferrer"><img src={github} alt="github" className="cicle responsive-img" width="120" height="120"/></a>
                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 </row>
                 <row>
-                    <a href="https://www.linkedin.com/in/lucassilva996/" target="_blank"><img src={linkedin} className="cicle responsive-img" width="120" height="120"/></a>
+                    <a href="https://www.linkedin.com/in/lucassilva996/" target="_blank" rel="noreferrer"><img src={linkedin}  alt="linkedin" className="cicle responsive-img" width="120" height="120"/></a>
                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 </row>
                 <row>
-                    <a href="https://wa.me/5511990055881" target="_blank"><img src={whatsapp} className="cicle responsive-img" width="120" height="120"/></a>
+                    <a href="https://wa.me/5511990055881" target="_blank" rel="noreferrer"><img src={whatsapp} alt="whatsapp" className="cicle responsive-img" width="120" height="120"/></a>
                 </row>  
             
             </Card>
