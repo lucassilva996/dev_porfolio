@@ -1,17 +1,13 @@
+//importantando o react
 import React from 'react';
+//importando o ReactDOM para injetar o <APP/> na tag <div id="root"></div> do index.html
 import ReactDOM from 'react-dom';
-import './index.css';
+//importando o componente APP
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+//importando a lib de rotas
+import {BrowserRouter} from 'react-router-dom'
+//importando o css
+import './index.css';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+//renderizando o componente APP(com seus sub componentes e etc) em <div id ="root"></div> do index.html
+ReactDOM.render(<BrowserRouter><App /></BrowserRouter>,document.getElementById('root'));
