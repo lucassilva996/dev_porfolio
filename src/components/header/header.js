@@ -2,13 +2,22 @@
 import React from "react";
 
 //importando os components necessários da lib react-materialize
-import {Navbar, NavItem, Row} from 'react-materialize';
+import { Navbar, NavItem, Row } from 'react-materialize';
+import { Link } from 'react-router-dom'
 
 const Header = () => (
     <Row>
-        <Navbar className ="grey darken-2">
-            <NavItem href="/">Inicio</NavItem>
-            <NavItem href="/contact">Contato</NavItem>
+        <Navbar className="grey darken-2">
+            <Link to="/" style={{ color: "#000" }}>
+                <NavItem>
+                    Inicio
+                </NavItem>
+            </Link>
+            <Link to="/contact" style={{ color: "#000" }}>
+                <NavItem >
+                    Contato
+                </NavItem>
+            </Link>
         </Navbar>
     </Row>
 );
