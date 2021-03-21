@@ -1,7 +1,7 @@
 {
   "name": "dev_portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
@@ -18,6 +18,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.0.7"
   },
   "eslintConfig": {
     "extends": [
