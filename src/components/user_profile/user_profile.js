@@ -19,7 +19,7 @@ import javascript from '../../images/javascript.ico';
 
 const UserProfile = () => (
     <Card>
-        <Row>
+        <Row class="center-align">
             <Col s={8} m={8} offset="s2 m2">
                 <img src={avatar} alt="avatar" className="cicle responsive-img"/>
             </Col>
