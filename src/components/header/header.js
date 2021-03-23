@@ -13,6 +13,11 @@ const Header = () => (
                     Inicio
                 </NavItem>
             </Link>
+            <Link to="/projects" style={{ color: "#000" }}>
+                <NavItem >
+                    Projetos
+                </NavItem>
+            </Link>
             <Link to="/contact" style={{ color: "#000" }}>
                 <NavItem >
                     Contato

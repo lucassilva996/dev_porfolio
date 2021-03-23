@@ -17,24 +17,20 @@ const Contact = () => (
             <UserProfile/>
         </Col>
         <Col m={8} s={12}>
-             <h5> Contato</h5>
+             <h5>Contato</h5>
             <Card>
                 
                 <p>Seguem abaixo os meus contatos: </p>
                 <br/>
-            
-                <row>
-                    <a href="https://github.com/lucassilva996" target="_blank" rel="noreferrer"><img src={github} alt="github" className="cicle responsive-img" width="120" height="120"/></a>
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                </row>
-                <row>
+                <Row className ="center-align">
+                    <a href="https://github.com/lucassilva996" target="_blank" rel="noreferrer"><img src={github} alt="github"className="cicle responsive-img" width="120" height="120"/></a>
+                </Row>
+                <Row className ="center-align">
                     <a href="https://www.linkedin.com/in/lucassilva996/" target="_blank" rel="noreferrer"><img src={linkedin}  alt="linkedin" className="cicle responsive-img" width="120" height="120"/></a>
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                </row>
-                <row>
+                </Row>
+                <Row className ="center-align">
                     <a href="https://wa.me/5511990055881" target="_blank" rel="noreferrer"><img src={whatsapp} alt="whatsapp" className="cicle responsive-img" width="120" height="120"/></a>
-                </row>  
-            
+                </Row>  
             </Card>
         </Col>
     </Row>
