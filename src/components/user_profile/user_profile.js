@@ -19,7 +19,7 @@ import javascript from '../../images/javascript.ico';
 
 const UserProfile = () => (
     <Card className="card-estilo">
-            <Col s={8} m={8} offset="s2 m2">
+            <Col s={8} m={8} offset="s2 m2" style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
                 <div className="position-avatar">
                     <img src={avatar} alt="avatar" className="cicle responsive-img" />
                     <Row className="center-align">
@@ -28,7 +28,7 @@ const UserProfile = () => (
                     </Row>
                 </div>
 
-                <Row className="center-align">
+                <Row className="center-align" style={{display:"flex", justifyContent:"center", alignItems:"center", flexWrap:"wrap"}}>
                     <img src={csharp} alt="csharp" className="cicle responsive-img" width="40" height="40" />
                     <img src={visualstudio} alt="visualstudio" className="cicle responsive-img" width="40" height="40" />
                     <img src={dotnet} alt="dotnet" className="cicle responsive-img" width="40" height="40" />
