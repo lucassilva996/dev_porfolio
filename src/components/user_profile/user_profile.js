@@ -3,7 +3,7 @@ import React from "react";
 //importando os components necessários da lib react-materialize
 import { Row, Col, Card } from 'react-materialize';
 //importando a foto do usuário
-import avatar from '../../images/avatar.jpg';
+import avatar from '../../images/perfil.png';
 //importando os badges das tecnologias
 import csharp from '../../images/csharp.ico';
 import visualstudio from '../../images/visualstudio.ico';
